@@ -1,0 +1,10 @@
+@font-face {
+    font-family: "Roboto-regular";
+    src: url(../fonts/Fasthand-Regular.ttf);
+    font-weight: 100;
+}
+@font-face {
+    font-family: "Roboto-Medium";
+    src: url(../fonts/VT323-Regular.ttf);
+    font-weight: 100;
+}

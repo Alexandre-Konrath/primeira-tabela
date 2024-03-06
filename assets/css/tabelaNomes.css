@@ -1,0 +1,61 @@
+/* estilizando a tabela */
+
+.container-table table, th, tr, tfoot > tr > td {
+    border: 2px solid rgb(78, 0, 65);
+    border-collapse: collapse;
+}
+
+.container-table table {
+    width: 90%;
+}
+
+.container-table table thead {
+    font-family: "Roboto-Medium";
+    text-align: center;
+}
+.container-table table thead th {
+    width: 100px;
+    height: 40px;
+}
+
+.container-table table tbody {
+    font-family: "Roboto-Medium";
+    text-align: center;
+}
+.container-table table tbody tr {
+    width: 100px;
+    height: 40px;
+}
+/*  seletor de elementos */
+/* deixa meio q uma zebra */
+.container-table table tbody tr:nth-child(2n) {
+    background-color: rgb(110, 0, 92);
+}
+/* vai estar aplicando o hover no td */
+.container-table table tbody tr:hover > td {
+    background-color: rgb(97, 0, 81);
+    color: rgb(20, 0, 19);
+    font-weight: 700px;
+}
+.container-table table tfoot {
+    width: 100px;
+    height: 40px;
+    border-bottom: 2px solid rgb(110, 0, 92);
+    text-align: center;
+    font-size: 17px;
+    font-family: "Roboto-Medium";
+}
+.container-table table tfoot td {
+    width: 100px;
+    height: 50px;
+    border-bottom: 2px solid rgb(110, 0, 92);
+}
+.sb {
+    font-size: 20px;
+    /* deixa as bordas do registro trasparentes  */    
+    border-left: transparent;
+    border-bottom: transparent !important;
+    border-right:transparent;
+}
+
+/*  */

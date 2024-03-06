@@ -1,0 +1,117 @@
+/* inputs nome sobrenome idade profissao 
+
+*/
+.container {
+    /* da o espacamento do meio para a esquerda */
+    width: 90%;
+    /* da a distancia da parede da direita */
+    margin: auto;
+    /* da uma distancia d parede de cima*/
+    margin-top: 5%;
+}
+.container .w-100 .col-6-l{
+    /* tamanho da input  nome e idade*/
+    width: 50%;
+    /* deixar o input nome sempre na parte da esquerda */    
+    float: left;
+    margin-bottom: 16px;
+}
+.container .w-100 .col-6-l input{
+    /* font que fica dentro da caixa do input */
+    font-size: 16px;
+    /* da um negrida na palvra */
+    font-weight: 900;
+}
+.container .w-100 .col-6-l input{
+    width: 90%;
+    height: 30px;
+    /* borda */
+    border: 2px solid rgb(78, 0, 65);
+    /* da uma curva na ponta da borda */
+    border-radius: 5px;
+    /* deixa dentro da caixa do input transparente  */
+    background-color: transparent;
+    padding-left: 5px;
+    /* cor do texto do input */
+    color:rgb(37, 0, 34);
+    font-family: "Roboto-Medium";
+}
+.container .w-100 .col-6-l input:active{
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 5px;
+    background-color: black;
+    outline: none;
+}
+/* muda a borda e dentro da caixa quando voce clickou */
+.container .w-100 .col-6-l input:focus{
+    border: 2px solid rgb(110, 0, 92) !important;
+    border-radius: 5px;
+    background-color: rgb(49, 49, 49);
+    outline: none;
+}
+
+/* inputs da direita */
+.container .w-100 .col-6-r {
+    min-width: 50%;
+    float: right;
+    margin-bottom: 16px;
+}
+.container .w-100 .col-6-r input{
+    font-size: 16px;
+    font-weight: 900;
+}
+.container .w-100 .col-6-r input{
+    width: 90%;
+    height: 30px;
+    border: 2px solid rgb(78, 0, 65);
+    border-radius: 5px;
+    background-color: transparent;
+    padding-left: 5px;
+    /* cor do ponteiro que digita */
+    color:rgb(37, 0, 34);
+    font-family: "Roboto-Medium";}
+.container .w-100 .col-6-r input:active{
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 5px;
+    background-color: black;
+    outline: none;
+}
+.container .w-100 .col-6-r input:focus{
+    /* muda a cor da borda quando esta selecionada/focus */    
+    border: 2px solid rgb(110, 0, 92) !important;
+    border-radius: 5px;
+    /* cor de dentro da caixa quando selecionada/focus */
+    background-color: rgb(49, 49, 49);
+    outline: none;
+}
+/* margin: auto = deixa a lista no meio
+   text-align: center alinha os dados da lista no centro */
+.cu2 {
+    margin: auto;
+    text-align: center;
+}
+/* fim da parte 2 filtro */
+/* botao */
+.container .w-100 .bnt-pesquisa {
+    position: relative;
+    left: 43%;
+    margin-right: 150px;
+    width: 150px;
+    height: 35px;
+    background-color: transparent;
+    outline: none;
+    border: 2px solid rgb(78, 0, 65) !important;
+    border-radius: 5px;
+    color: black;
+    font-family: "Roboto-Reguras";
+    font-size: 16px;
+    font-weight: 900;
+}
+/* muda a cor do botao quando passa o mouse por cima */
+.container .w-100 .bnt-pesquisa:hover {
+    background-color: rgb(92, 0, 76);
+}
+/* estilizando a tabela */
+
+
+/*  */
